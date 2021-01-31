@@ -1,0 +1,3 @@
+https://www.mongodb.com/blog/post/rest-apis-with-java-spring-boot-and-mongodb
+
+curl http://localhost:8080/api/persion/0
