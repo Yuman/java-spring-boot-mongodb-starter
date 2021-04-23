@@ -26,6 +26,7 @@ public class PersonController {
     @PostMapping("person")
     @ResponseStatus(HttpStatus.CREATED)
     public Person postPerson(@RequestBody Person person) {
+        LOGGER.info(person.toString());
         return personRepository.save(person);
     }
 

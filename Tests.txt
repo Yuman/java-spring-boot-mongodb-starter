@@ -1,3 +1,9 @@
 https://www.mongodb.com/blog/post/rest-apis-with-java-spring-boot-and-mongodb
 
-curl http://localhost:8080/api/persion/0
+curl http://localhost:8080/api/persons/count
+
+curl http://localhost:8080/api/person -H 'Content-Type: application/json' -d '{"firstName":"Jay", "lastName": "Leno", "age": 45}'
+
+curl http://localhost:8080/api/person/60517f88076b804ff05e7b73
+
+curl http://localhost:8080/api/persons
