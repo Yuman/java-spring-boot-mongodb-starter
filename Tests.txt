@@ -1,3 +1,9 @@
+Project setup: https://www.youtube.com/watch?v=uq4GjRF_860
+VSCode crash https://www.youtube.com/watch?v=WPqXP_kLzpo
+
+To create maven wrappers:
+mvn -N io.takari:maven:wrapper
+
 https://www.mongodb.com/blog/post/rest-apis-with-java-spring-boot-and-mongodb
 
 curl http://localhost:8080/api/persons/count
@@ -7,3 +13,4 @@ curl http://localhost:8080/api/person -H 'Content-Type: application/json' -d '{"
 curl http://localhost:8080/api/person/60517f88076b804ff05e7b73
 
 curl http://localhost:8080/api/persons
+
